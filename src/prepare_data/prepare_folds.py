@@ -40,7 +40,7 @@ def make_five_folds_by_index(df):
     return folds
 
 def get_folds():
-    file_path = config.dataset_dir_path
+    file_path = config.keys_path
     df = pd.read_excel(file_path, header=1)
 
     # Normalize Case IDs
